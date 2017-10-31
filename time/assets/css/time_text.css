@@ -1,0 +1,32 @@
+/*Time style*/
+
+.time_style{
+  width:14.29vw;
+  height: 7.14vh;
+  position:absolute;
+  top: 71.43vh;
+  margin:auto;
+  z-index:99;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 20px;
+  background: none;
+}
+
+.time_style.black{
+  color: black;
+}
+
+.time_style.white{
+  color: white;
+}
+
+.time_A {left: calc(100vw - 14.29vw)}
+.time_ss {left: calc(100vw - (2 * 14.29vw))}
+.time_mm {left: calc(100vw - (3 * 14.29vw))}
+.time_h {left: calc(100vw - (4 * 14.29vw))}
+.time_YYYY {left: calc(100vw - (5 * 14.29vw))}
+.time_MMMM {left: calc(100vw - (6 * 14.29vw))}
+.time_D {left:0}

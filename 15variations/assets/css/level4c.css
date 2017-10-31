@@ -1,0 +1,59 @@
+html {
+  background: #ffffff;
+  color: red;
+}
+
+.block {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: Futura;
+  color: black;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+.rotate-over {
+  font-family: Helvetica;
+  width: 450px;
+  font-size: 30px;
+  transform: translate(600px, 120px) rotate(76deg);
+  border-bottom: 10px solid black;
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+.rotate-under {
+  font-family: Helvetica;
+  width: 450px;
+  font-size: 30px;
+  transform: translate(640px, 160px) rotate(76deg);
+  border-bottom: 10px solid black;
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+.middle-text {
+  position: relative;
+  width: 100%;
+  right: auto;
+  font-size: 180px;
+  font-family: Futura;
+  font-variant: small-caps;
+  z-index: -1;
+  font-weight: 600;
+  overflow: hidden;
+  background-color: #ffffff;
+  margin-top: 8%;
+  transform: rotate(-14deg);
+  margin-left: 3%;
+}
+
+.under {
+  width: 100%;
+  left: -3%;
+  margin-top: -60px;
+  background-color: #ffffff;
+  height: 100px;
+  position: relative;
+}

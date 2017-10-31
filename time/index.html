@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <!-- Require these to reset browser styles and debugging -->
+    <link rel="stylesheet" href="assets/css/_normalize.css">
+    <link rel="stylesheet" href="assets/css/_debug.css">
+
+    <!-- Add custom styles here -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/time.css">
+    <link rel="stylesheet" href="assets/css/time_text.css">
+
+
+    <!-- Require these for JS -->
+    <script src="assets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="assets/js/moment-with-locales.min.js" charset="utf-8"></script>
+    <script src="assets/js/time.js" charset="utf-8"></script>
+
+    <!-- Add custom JS here -->
+    <script src="assets/js/main.js" charset="utf-8"></script>
+
+    <!-- fonts -->
+
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <!-- Start here -->
+
+    <!-- <div class="time"></div> -->
+    <div class="time_A time_style white"></div>
+    <div class="time_ss time_style black"></div>
+    <div class="time_mm time_style white"></div>
+    <div class="time_h time_style black"></div>
+    <div class="time_YYYY time_style white"></div>
+    <div class="time_MMMM time_style black"></div>
+    <div class="time_D time_style white"></div>
+
+    <div class="cb">
+    <div class="row a">
+      <div class="t_D"></div>
+      <div class="t_MMMM"></div>
+      <div class="t_YYYY"></div>
+      <div class="t_h"></div>
+      <div class="t_mm"></div>
+      <div class="t_ss"></div>
+      <div class="t_A"></div>
+    </div>
+    <div class="row b">
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+    </div>
+    <div class="row c">
+      <div class="span-4">
+        <div class="t_ss two"></div>
+        <div class="blue-light"></div>
+        <div class="purple m3"></div>
+        <div class="gray m3"></div>
+      </div>
+      <div class="triple">
+        <div class="t_ss two gray-dark"></div>
+        <div class="t_A two gray-med m2"></div>
+        <div class="gray-light-2"></div>
+      </div>
+      <div class="gray"></div>
+    </div>
+  </div>
+
+
+
+    <!-- remove later, used for debugging -->
+    <button type="button" id="pause" name="button">Pause</button>
+    <textarea id="timeClasses" name="name" rows="2" cols="40">evenS oddS evenM oddM halfM fullM quarterH halfH threequarterH fullH am pm
+    </textarea>
+
+  </body>
+</html>

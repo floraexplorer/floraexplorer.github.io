@@ -1,0 +1,73 @@
+body {
+  color: #0091E5;
+  font-family: 'Arimo', sans-serif;
+  background: #fffbeb;
+}
+
+.left {
+  mix-blend-mode: multiply;
+  width: 30%;
+  line-height: 1.5em;
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+}
+
+.right {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+p {
+  margin: 0;
+}
+p.red {
+  font-weight: bold;
+}
+
+a {
+  color: #E42149;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 7px 5px;
+  margin: -7px -5px;
+  transition: .3s;
+}
+a:hover {
+  background-color: #FFF146;
+}
+
+h1 {
+  font-size: 10em;
+  text-transform: uppercase;
+  letter-spacing: -.1em;
+  position: fixed;
+  transform: rotate(-90deg) translate(30%, -40%);
+  transform-origin: left;
+  mix-blend-mode: multiply;
+}
+
+.blue {
+  color: #0091E5;
+}
+
+.red {
+  color: #E42149;
+}
+
+.yellow {
+  color: #FFF146;
+}
+
+.first {
+  transform: rotate(-90deg) translate(30%, -40%);
+}
+
+.second {
+  transform: rotate(-90deg) translate(32.5%, -40%);
+}
+
+.third {
+  transform: rotate(-90deg) translate(35%, -40%);
+}

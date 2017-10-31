@@ -1,0 +1,7 @@
+.glasses {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+  color: rgba(22,22,22,0.9);
+  text-shadow: -0.1em 0.2em #ff7989, 0.1em -0.1em #1af6f6;
+}

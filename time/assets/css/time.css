@@ -1,0 +1,62 @@
+/* Note target the body first with the modifer.
+For example, every evenSecond change the div color to blue.
+Every oddSecond change the div color to red
+
+body.evenS .time {
+  color:blue;
+}
+
+body.oddS .time {
+  color:red;
+}
+
+Target multiple together. Every evenSecond only in the evening, display an image.
+
+body.evenS.pm .sunset {
+  display:block;
+}
+
+*/
+
+/* t_D t_MMMM t_YYYY t_h t_mm t_ss t_A *
+/* evenS oddS evenM oddM halfM fullM quarterH halfH threequarterH fullH oddD evenD oddY evenY am pm */
+
+
+/* Time CSS here */
+
+body.evenS .t_ss {background: blue}
+body.oddS .t_ss {background: red}
+
+body.evenS .t_ss.two {background: green}
+
+body.am .t_A {background: pink}
+body.pm .t_A {background: cyan}
+
+body.pm .t_A.two {background: goldenrod}
+
+body.evenM .t_mm {background: yellow}
+body.oddM .t_mm {background: coral}
+
+body.quarterH .t_h {background: fuchsia}
+body.halfH .t_h {background: firebrick}
+body.threequarterH .t_h {background: darkorange}
+body.fullH .t_h {background: chartreuse}
+
+body.oddD .t_D {background: red}
+body.evenD .t_D {background: green}
+
+body.oddY .t_YYYY {background: peachpuff}
+body.evenY .t_YYYY {background: blue}
+
+body.january .t_MMMM {background: pink}
+body.february .t_MMMM {background: pink}
+body.march .t_MMMM {background: pink}
+body.april .t_MMMM {background: pink}
+body.may .t_MMMM {background: pink}
+body.june .t_MMMM {background: pink}
+body.july .t_MMMM {background: pink}
+body.august .t_MMMM {background: pink}
+body.september .t_MMMM {background: pink}
+body.october .t_MMMM {background: pink}
+body.november .t_MMMM {background: pink}
+body.december .t_MMMM {background: pink}
